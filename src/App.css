@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -77,10 +77,11 @@ footer p {
   display: flex;
   background-color: #53565A;
   margin-top: 10px;
+  
 }
 
 ul {
-  list-style-type: none
+  list-style-type: none;
 }
 
 /* Sidebar */
@@ -90,16 +91,18 @@ ul {
   width: 20%;
   background-color: #53565A;
   color: white;
+  text-align: center;
 }
 
 .sidebar-list a {
   color: white;
-  padding: 0
+  padding: 0;
+
 }
 
 .sidebar-route {
   flex: 1;
-  padding: '00px'
+  padding: '00px';
 }
 
 /* header */
